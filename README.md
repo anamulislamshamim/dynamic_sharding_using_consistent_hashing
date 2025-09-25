@@ -18,7 +18,7 @@ But there’s a problem:
 3. **Key placement:** A key is hashed and mapped clockwise to the nearest shard.
 4. **Minimal rehashing:** When a shard is added/removed, only nearby keys move, not all keys.
 5. **virtual nodes:** minimize key shifting and balance load
-6. **Replication:** Also, we can implement replication for high availability, distribute read and write (Instead of store data one shart we can store multiple shard clockwise.).
+6. **Replication:** Also, we can implement replication for high availability, distribute read  (Instead of store data one shard, we can store to multiple shard clockwise.).
 
 ---
 
